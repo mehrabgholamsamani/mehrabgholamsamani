@@ -1,5 +1,9 @@
 # 💫 About Me:
-<br>I design and build fast, scalable frontend applications with React and TypeScript.<br>
+<br>🔭 Building React/TypeScript apps and interactive frontend systems
+👯 Open to collaborating on serious frontend projects
+🌱 Sharpening frontend architecture and performance skills
+💬 Ask me about React, UI engineering, and clean system design
+⚡ I like solving hard problems and making them look simple<br>
 
 
 ## 🌐 Socials:
