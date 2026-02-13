@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 Working on React/TypeScript dashboards and interactive canvas apps<br>👯 Open to collaborating on modern frontend projects<br>🌱 Learning advanced frontend architecture and performance optimization<br>💬 Ask me about React, UI engineering, and scalable frontend systems<br>⚡ I enjoy turning complex ideas into clean interfaces<br>
+<br>I build stuff<br>
 
 
 ## 🌐 Socials:
