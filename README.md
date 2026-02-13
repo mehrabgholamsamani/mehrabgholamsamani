@@ -1,5 +1,5 @@
 # 💫 About Me:
-<br>I build stuff<br>
+<br>I design and build fast, scalable frontend applications with React and TypeScript.<br>
 
 
 ## 🌐 Socials:
