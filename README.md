@@ -1,9 +1,9 @@
 # 💫 About Me:
 🔭 Building React/TypeScript apps and interactive frontend systems<br>
-👯 Open to collaborating on serious frontend projects<br>
-🌱 Sharpening frontend architecture and performance skills<br>
+👨‍💻 Open to collaborating on serious frontend projects<br>
+⚡ Sharpening frontend architecture and performance skills<br>
 💬 Ask me about React, UI engineering, and clean system design<br>
-⚡ I like solving hard problems and making them look simple<br>
+🔥 I like solving hard problems and making them look simple<br>
 
 
 ## 🌐 Socials:
