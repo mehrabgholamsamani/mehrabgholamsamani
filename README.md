@@ -1,9 +1,9 @@
 # 💫 About Me:
-🔭 Building React/TypeScript apps and interactive frontend systems<br>
-👨‍💻 Open to collaborating on serious frontend projects<br>
-⚡ Sharpening frontend architecture and performance skills<br>
-💬 Ask me about React, UI engineering, and clean system design<br>
-🔥 I like solving hard problems and making them look simple <br>
+🔭 Interest in building React/TypeScript apps and interactive frontend systems<br>
+👨‍💻 Open to collaborating on serious fullstack projects<br>
+⚡ Sharpening frontend architecture and system design<br>
+💬 Ask me about Backend, Application Development, and clean System Design<br>
+🔥 I like building complex apps that makes me hate life <br>
 
 
 ## 🌐 Socials:
@@ -16,4 +16,4 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=mehrabgholamsamani&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=mehrabgholamsamani&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
