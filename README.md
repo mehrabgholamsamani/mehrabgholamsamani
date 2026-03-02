@@ -5,6 +5,17 @@
 ♦️ Ask me about Backend, Application Development, and clean System Design<br>
 🃏 I like building complex apps that makes me hate life <br>
 
+⁣          🎈🎈  ☁️
+         🎈🎈🎈
+ ☁️     🎈🎈🎈🎈
+        🎈🎈🎈🎈
+   ☁️    ⁣🎈🎈🎈
+           \|/
+           🏠   ☁️
+   ☁️         ☁️
+
+🌳🌹🏫🌳🏢🏢_🏢🏢🌳🌳
+
 
 
 ## 🌐 Socials:
