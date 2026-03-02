@@ -1,9 +1,9 @@
 # 💫 About Me:
-🔭 Interest in building React/TypeScript apps and interactive frontend systems<br>
-👨‍💻 Open to collaborating on serious fullstack projects<br>
-⚡ Sharpening frontend architecture and system design<br>
-💬 Ask me about Backend, Application Development, and clean System Design<br>
-🔥 I like building complex apps that makes me hate life <br>
+♣️ Open to collaborating on serious fullstack projects<br>
+♥️ Interest in building React/TypeScript apps and scalable backend systems<br>
+♠️ Sharpening frontend architecture and system design<br>
+♦️ Ask me about Backend, Application Development, and clean System Design<br>
+🃏 I like building complex apps that makes me hate life <br>
 
 
 
