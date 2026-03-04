@@ -2,7 +2,7 @@
 ♣️ Open to collaborating on serious fullstack projects<br>
 ♥️ Obsessed with React, TypeScript, and backends that actually scale<br>
 ♠️ Sharpening frontend architecture and system design<br>
-♦️ Ask me about Backend, Application Development, and clean System Design<br>
+♦️ Ask me about Backend, Application Development, and System Design<br>
 🃏 I like building complex apps that makes me hate life <br>
 
 ## 🌐 Socials:
