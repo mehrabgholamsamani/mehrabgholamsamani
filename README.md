@@ -1,5 +1,5 @@
 # 💫 About Me:
-♣️ Open to collaborating on serious fullstack projects<br>
+♣️ Open to collaborating on fullstack projects<br>
 ♥️ Obsessed with React, TypeScript, and backends that actually scale<br>
 ♠️ Sharpening frontend architecture and designing restAPI<br>
 ♦️ Ask me about Backend, Application Development, and System Design<br>
