@@ -3,7 +3,7 @@
 ♥️ Obsessed with React, TypeScript, and backends that actually scale<br>
 ♠️ Sharpening frontend architecture and designing restAPI<br>
 ♦️ Ask me about Backend, Application Development, and System Design<br>
-🃏 I like building complex apps that makes me hate life <br>
+🃏 I like building complex apps that makes me hate lif <br>
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mehrab-samani-853103393/)
