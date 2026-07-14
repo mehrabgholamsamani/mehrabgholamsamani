@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Mehrab Samani</title>
+  <desc id="desc">An animated classic Art Deco GitHub profile banner with Mehrab Samani centered.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.48" stop-color="#17120b"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6f4b16"/>
+      <stop offset="0.25" stop-color="#c89a42"/>
+      <stop offset="0.5" stop-color="#f2d88c"/>
+      <stop offset="0.72" stop-color="#b47d27"/>
+      <stop offset="1" stop-color="#5b3a0b"/>
+    </linearGradient>
+
+    <linearGradient id="goldSweep" x1="-1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#6f4b16"/>
+      <stop offset="0.45" stop-color="#c89a42"/>
+      <stop offset="0.5" stop-color="#fff5c9"/>
+      <stop offset="0.55" stop-color="#c89a42"/>
+      <stop offset="1" stop-color="#6f4b16"/>
+      <animate attributeName="x1" values="-1;1" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2" dur="5.5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="halo" cx="50%" cy="44%" r="48%">
+      <stop offset="0" stop-color="#d6a84d" stop-opacity=".22"/>
+      <stop offset=".45" stop-color="#b07c2b" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".45" fill="#fff" opacity=".045"/>
+      <circle cx="3" cy="3" r=".35" fill="#d7b56d" opacity=".03"/>
+    </pattern>
+
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity=".8"/>
+    </filter>
+
+    <clipPath id="nameClip">
+      <text x="600" y="140" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, 'Times New Roman', serif" font-size="63" font-weight="700" letter-spacing="7">MEHRAB SAMANI</text>
+    </clipPath>
+
+    <style>
+      .line-draw {
+        stroke-dasharray: 900;
+        stroke-dashoffset: 900;
+        animation: draw 2.2s ease-out forwards;
+      }
+
+      .fade-up {
+        opacity: 0;
+        animation: fadeUp 1.2s ease-out forwards;
+      }
+
+      .delay-1 { animation-delay: .35s; }
+      .delay-2 { animation-delay: .75s; }
+      .delay-3 { animation-delay: 1.1s; }
+
+      .pulse {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: pulse 3.2s ease-in-out infinite;
+      }
+
+      .rotate-slow {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: rotate 22s linear infinite;
+      }
+
+      .spark {
+        animation: twinkle 2.4s ease-in-out infinite;
+      }
+
+      .spark:nth-of-type(2n) { animation-delay: .7s; }
+      .spark:nth-of-type(3n) { animation-delay: 1.3s; }
+
+      .sweep {
+        animation: sweep 5.5s ease-in-out infinite;
+      }
+
+      @keyframes draw {
+        to { stroke-dashoffset: 0; }
+      }
+
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(9px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: .55; transform: scale(.96); }
+        50% { opacity: 1; transform: scale(1.04); }
+      }
+
+      @keyframes rotate {
+        to { transform: rotate(360deg); }
+      }
+
+      @keyframes twinkle {
+        0%, 100% { opacity: .15; }
+        50% { opacity: .85; }
+      }
+
+      @keyframes sweep {
+        0% { transform: translateX(-460px) skewX(-18deg); opacity: 0; }
+        18% { opacity: .75; }
+        50% { opacity: .4; }
+        82% { opacity: .75; }
+        100% { transform: translateX(1660px) skewX(-18deg); opacity: 0; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="280" rx="18" fill="url(#background)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#halo)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#grain)"/>
+
+  <!-- Outer frame -->
+  <rect x="12" y="12" width="1176" height="256" rx="12" fill="none" stroke="url(#gold)" stroke-width="2.2" class="line-draw"/>
+  <rect x="22" y="22" width="1156" height="236" rx="8" fill="none" stroke="#f0d98c" stroke-opacity=".35" stroke-width="1" class="line-draw delay-1"/>
+
+  <!-- Art Deco corner ornaments -->
+  <g stroke="url(#gold)" fill="none" stroke-width="2" class="fade-up delay-1">
+    <path d="M36 86V36H86"/>
+    <path d="M36 63H63V36"/>
+    <path d="M48 75V48H75"/>
+    <path d="M1114 36h50v50"/>
+    <path d="M1137 36v27h27"/>
+    <path d="M1125 48h27v27"/>
+    <path d="M36 194v50h50"/>
+    <path d="M36 217h27v27"/>
+    <path d="M48 205v27h27"/>
+    <path d="M1114 244h50v-50"/>
+    <path d="M1137 244v-27h27"/>
+    <path d="M1125 232h27v-27"/>
+  </g>
+
+  <!-- Side fans -->
+  <g opacity=".78" class="fade-up delay-2">
+    <g transform="translate(132 140)">
+      <path d="M0 0L-60 -70M0 0L-82 -40M0 0L-92 0M0 0L-82 40M0 0L-60 70" stroke="url(#gold)" stroke-width="2"/>
+      <path d="M-62 -70A94 94 0 0 0 -62 70" stroke="#ecd182" stroke-opacity=".35"/>
+      <circle r="8" fill="url(#gold)" class="pulse"/>
+    </g>
+    <g transform="translate(1068 140)">
+      <path d="M0 0L60 -70M0 0L82 -40M0 0L92 0M0 0L82 40M0 0L60 70" stroke="url(#gold)" stroke-width="2"/>
+      <path d="M62 -70A94 94 0 0 1 62 70" stroke="#ecd182" stroke-opacity=".35"/>
+      <circle r="8" fill="url(#gold)" class="pulse"/>
+    </g>
+  </g>
+
+  <!-- Central sunburst -->
+  <g transform="translate(600 140)" opacity=".34" class="rotate-slow">
+    <g stroke="#d8aa50" stroke-width="1">
+      <path d="M0 -100V-64"/>
+      <path d="M38 -92L25 -59"/>
+      <path d="M71 -71L45 -45"/>
+      <path d="M92 -38L59 -25"/>
+      <path d="M100 0H64"/>
+      <path d="M92 38L59 25"/>
+      <path d="M71 71L45 45"/>
+      <path d="M38 92L25 59"/>
+      <path d="M0 100V64"/>
+      <path d="M-38 92L-25 59"/>
+      <path d="M-71 71L-45 45"/>
+      <path d="M-92 38L-59 25"/>
+      <path d="M-100 0H-64"/>
+      <path d="M-92 -38L-59 -25"/>
+      <path d="M-71 -71L-45 -45"/>
+      <path d="M-38 -92L-25 -59"/>
+    </g>
+    <circle r="54" fill="none" stroke="#d8aa50" stroke-width="1.3"/>
+    <circle r="44" fill="none" stroke="#f2df9b" stroke-opacity=".45"/>
+  </g>
+
+  <!-- Decorative horizontal rules -->
+  <g class="fade-up delay-2">
+    <path d="M250 78H478L500 100H700L722 78H950" stroke="url(#gold)" stroke-width="2" fill="none"/>
+    <path d="M250 202H478L500 180H700L722 202H950" stroke="url(#gold)" stroke-width="2" fill="none"/>
+    <circle cx="242" cy="78" r="3.5" fill="#e6c36d"/>
+    <circle cx="958" cy="78" r="3.5" fill="#e6c36d"/>
+    <circle cx="242" cy="202" r="3.5" fill="#e6c36d"/>
+    <circle cx="958" cy="202" r="3.5" fill="#e6c36d"/>
+  </g>
+
+  <!-- Name -->
+  <text x="600" y="140" text-anchor="middle" dominant-baseline="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="63" font-weight="700" letter-spacing="7"
+        fill="url(#goldSweep)" filter="url(#softShadow)"
+        class="fade-up delay-1">MEHRAB SAMANI</text>
+
+  <!-- Moving highlight clipped to name -->
+  <g clip-path="url(#nameClip)" opacity=".75">
+    <rect x="-400" y="94" width="180" height="92" fill="#fff7d4" class="sweep"/>
+  </g>
+
+  <!-- Ambient sparkles -->
+  <g fill="#f2d88c">
+    <circle class="spark" cx="196" cy="54" r="1.4"/>
+    <circle class="spark" cx="311" cy="43" r="1"/>
+    <circle class="spark" cx="889" cy="48" r="1.3"/>
+    <circle class="spark" cx="1007" cy="65" r="1"/>
+    <circle class="spark" cx="173" cy="222" r="1.2"/>
+    <circle class="spark" cx="335" cy="239" r=".9"/>
+    <circle class="spark" cx="861" cy="236" r="1.1"/>
+    <circle class="spark" cx="1022" cy="219" r="1.4"/>
+  </g>
+</svg>
