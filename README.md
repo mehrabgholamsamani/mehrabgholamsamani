@@ -1,12 +1,10 @@
 <div align="center">
-
-<a href="https://git.io/typing-svg">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=2400&pause=700&color=36BCF7&center=true&vCenter=true&multiline=true&repeat=true&width=850&height=110&lines=Hey%2C+I'm+Mehrab+Samani+%F0%9F%91%8B;Full-Stack+Engineer+%7C+Real-Time+Systems"
-    alt="Mehrab Samani animated introduction"
+    src="mehrab-classic-centered-v2.svg"
+    width="100%"
+    alt="Mehrab Samani"
   />
-</a>
-
+</div>
 <br>
 
 [![Portfolio](https://img.shields.io/badge/VIEW_MY_PORTFOLIO-000000?style=for-the-badge\&logo=googlechrome\&logoColor=white)](https://mehrabdev.com)
